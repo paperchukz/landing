@@ -1,0 +1,111 @@
+/* body{
+	
+	font-family: 'Lato', sans-serif;
+	background-color:  	#230445;
+} */
+
+
+#nav li.active a {
+	background-color: blue;
+
+.container-fluid{
+	padding: 0;
+}
+
+nav li{
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #555;
+}
+
+nav a{
+	color: #777;
+}
+
+.navbar{
+	box-shadow: none;
+}
+
+.navbar-brand{
+	font-weight: 700;
+	color: #ff4444;
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+.navbar-nav a:hover{
+	box-shadow: inset 0px -3px 0px 0px #33b5e5;
+}
+
+.container-main{
+	max-width: 900px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.flexbox{
+	display: flex;
+	justify-content: space-between;
+}
+
+.flexbox img{
+	max-width: 100%;
+	height: auto;
+	margin-right: -50px;
+}
+
+.text{
+	margin-top: 150px;
+}
+
+h2{
+	font-weight: 700;
+}
+
+h2, h6{
+	color: #555;
+}
+
+.btn{
+	text-transform: none;
+	width: 150px;
+}
+
+.btn-border{
+	border: 1px solid #33b5e5;
+	color: #33b5e5;
+}
+
+.img{
+	display: flex;
+}
+
+@media(max-width: 900px){
+	.flexbox{
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.text{
+		margin-top: 10px;
+		
+	}
+
+	.buttons{
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.btn{
+		width: 250px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+}
